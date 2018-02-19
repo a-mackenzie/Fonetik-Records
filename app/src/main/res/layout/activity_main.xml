@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fonetikrecords.MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"/>
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/marginSreenEdge"
+        android:layout_marginTop="@dimen/marginSreenEdge"
+        android:text="@string/header"
+        android:textAppearance="@style/fontHeader"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/marginSreenEdge"
+        android:text="@string/address"
+        android:textAppearance="@style/fontGeneral"
+        android:drawableStart="@drawable/icon_location"
+        android:drawablePadding="@dimen/paddingIcon"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/marginSreenEdge"
+        android:layout_marginTop="@dimen/marginBetweenText"
+        android:text="@string/phone"
+        android:textAppearance="@style/fontGeneral"
+        android:drawableStart="@drawable/icon_phone"
+        android:drawablePadding="@dimen/paddingIcon"/>
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/marginSreenEdge"
+        android:layout_marginTop="@dimen/marginBetweenText"
+        android:text="@string/website"
+        android:textAppearance="@style/fontGeneral"
+        android:textColorLink="@color/linkColor"
+        android:autoLink="web"
+        android:drawableStart="@drawable/icon_internet"
+        android:drawablePadding="@dimen/paddingIcon"/>
+
+</RelativeLayout>

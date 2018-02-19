@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fonetik Records</string>
+    <string name="header">fonetik records</string>
+    <string name="address">123 Sesame Street | North Haverbrook | Alderney 20312</string>
+    <string name="phone">555-286-1988</string>
+    <string name="website">fonetikrecs.com</string>
+</resources>

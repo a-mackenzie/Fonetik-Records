@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/myBrown</color>
+    <color name="colorPrimaryDark">@color/myGrey</color>
+    <color name="colorAccent">@color/linkColor</color>
+
+    <color name="myBrown">#795548</color>
+    <color name="myGrey">#424242</color>
+    <color name="linkColor">#0645AD</color>
+</resources>

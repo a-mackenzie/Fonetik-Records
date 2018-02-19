@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginSreenEdge">16dp</dimen>
+    <dimen name="marginBetweenText">4dp</dimen>
+    <dimen name="fontSizeHeader">40sp</dimen>
+    <dimen name="fontSizeGeneral">14sp</dimen>
+    <dimen name="paddingIcon">4dp</dimen>
+</resources>
